@@ -14,8 +14,8 @@ class FlexExpand extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ..._header(context, 'Expanded'),
-            //The Expanded widget will take up all the remaining unconstrained space from a Row or
-            //a Column.
+            //The Expanded widget will take up all the remaining unconstrained space from a 
+            //Row or a Column.
             _buildExpanded(),
             ..._header(context, 'Flexible'),
             // similar to Expanded, but it can also use the flex parameter to calculate the weight of each
